@@ -102,6 +102,7 @@ Steps to set up Defects4J
 
 3. Add Defects4J's executables to your PATH:
     - `export PATH=$PATH:"path2defects4j"/framework/bin`
+    - the best doing is cd defects4j and export PATH=$PATH:./framework/bin, then install libdbi-perl in ubuntu
 
 4. Check installation:
     - `defects4j info -p Lang`
